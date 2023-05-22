@@ -1,18 +1,16 @@
 import React from 'react';
 import Header from './components/Header';
-import Navigation from './components/Navigation';
 import About from './components/About';
+import Resume from './components/Resume';
 import Footer from './components/Footer';
 
-import './App.css';
-
 function App() {
- 
-    return (
+     return (
       <div>
         <Header></Header>
         <main>
           <About></About>
+          <Resume></Resume>
         </main>
         <Footer></Footer>
         </div>);
